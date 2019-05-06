@@ -2,17 +2,67 @@
 <html>
     <!-- Site information -->
     <head>
-	   <title>Michael Ibanez</title>
+	   <title>Tintern Abbey by William Wordsworth</title>
 	  	<meta charset="UTF-8">
-		<meta name="description" content="Personal Website">
+		<meta name="description" content="British Literature Project">
 		<meta name="keywords" content="Michael Ibanez" />
 		<meta name="author" content="Michael Ibanez" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0;">   
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;"> 
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" />
     </head>
-
     <body>
-        <span> Heasdasd y </span>
 
-    
-	</body>
-</html>
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <h1>fullPage.js</h1>
+            <p>Continuous Scrolling Enabled</p>
+            <img src="imgs/fullPage.png" alt="fullPage" />
+        </div>
+        <div class="section" id="section1">
+            <div class="intro">
+                <h1>Around the world scrolling</h1>
+                <p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Scroll Down</h1>
+                <p>And it will animate down to the first section</p>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>Scroll Down</h1>
+                <p>Or </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+            menu: '#myMenu',
+            navigation: true,
+            navigationPosition: 'right',
+            showActiveTooltip: true,
+            slidesNavigation: true,
+            slidesNavPosition: 'bottom',
+
+            //Scrolling
+            css3: true,
+            scrollingSpeed: 100000,
+            autoScrolling: true,
+            fitToSection: true,
+            fitToSectionDelay: 1000,
+            scrollBar: false,
+            easing: 'easeInOutCubic',
+            easingcss3: 'ease',
+            continuousVertical: true,
+        });
+    </script>
+
+    </body>
+    </html>
