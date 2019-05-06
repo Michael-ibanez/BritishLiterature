@@ -3,7 +3,31 @@
         url(https://fonts.googleapis.com/css?family=Roboto:100);
 @col: #0f1d24;
 
-html,body, main{ 
-    height: 100%;
-    background-color: black;  
+/* Custom CSS - Start */
+body{
+	font-family: arial,helvetica;
+	color: #333;
+	color: rgba(0,0,0,0.5);
 }
+.wrap{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+}
+h1{
+	font-size: 6em;
+}
+p{
+	font-size: 2em;
+}
+.intro p{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+}
+.section{
+	text-align:center;
+}
+
+/* Custom CSS - End */
