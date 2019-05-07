@@ -7,7 +7,7 @@
 body{
 	font-family: arial,helvetica;
 	color: #333;
-	color: rgba(0,0,0,0.5);
+	color: rgba(0,0,0,0.90);
 }
 .wrap{
 	margin-left: auto;
@@ -19,15 +19,79 @@ h1{
 	font-size: 6em;
 }
 p{
-	font-size: 2em;
+	font-size: 3em;
+}
+h2{
+	font-size: 3em;
 }
 .intro p{
-	width: 50%;
+	width: 75%;
+    text-align: center;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size: 1.8em;
+    padding-bottom: 10px;
+    font-feature-settings: normal;
+    font-synthesis: style;
+    font-variant-numeric: normal;
+    font-family: arial,helvetica;
+	color: rgba(0,0,0,0.75);
+    color: white;
+    font-weight:800;
 }
+
 .section{
 	text-align:center;
 }
-
+.section0{
+    background-image: url('/photos/some.png');
+    background-size: cover;
+}
+.section1{
+    background-image: url('/photos/sunset.jpg');
+    background-size: cover;
+}
+.section2{
+    background-image: url('https://media.gettyimages.com/photos/spooky-cabin-in-the-woods-picture-id186558367?k=6&m=186558367&s=612x612&w=0&h=15hnLCKPOtk87xhNGadNhrcZlKOqlGql8VDtQlUmzTM=');
+    background-size: cover;
+}
+.section3{
+    background-image: url('https://media.gettyimages.com/photos/big-ben-and-the-parliament-in-london-picture-id487547456?k=6&m=487547456&s=612x612&w=0&h=rxlz6Ivt3hh3a5he6Xg00K20VgkKPavuOdmZC-YWU2g=');
+    background-size: cover;
+}
+.section4{
+    background-image: url('https://media.gettyimages.com/photos/alberta-wilderness-near-banff-picture-id583809524?k=6&m=583809524&s=612x612&w=0&h=BULe3Nu75PMVOVMctj6jIM6Wmb9tivpwvVsu6sOpo9A=');
+    background-size: cover;
+}
+.section5{
+    background-image: url('https://media.gettyimages.com/photos/forest-path-picture-id486094724?k=6&m=486094724&s=612x612&w=0&h=PtgMdbtyRw-JIZ_wahxc2AoEcjxN6Qi8XLEjJy5cij4=');
+    background-size: cover;
+}
+.section6{
+    background-image: url('https://media.gettyimages.com/photos/waterfall-on-the-mountain-stream-located-in-misty-forest-picture-id149150491?k=6&m=149150491&s=612x612&w=0&h=WtvGc0wUoFBSiXJVgh3jIpN27ZuDkRQrw5ewv88x0pw=');
+    background-size: cover;
+}
+.section7{
+    background-image: url('https://media.gettyimages.com/photos/aerial-view-of-green-treetops-picture-id530054691?k=6&m=530054691&s=612x612&w=0&h=P3Mf2dVlHOW2lfzFGDCrpXWolW1ogYidwKUwxGnujCc=');
+    background-size: cover;
+}
+.section8{
+    background-image: url('https://media.gettyimages.com/photos/good-and-evil-picture-id157770236?k=6&m=157770236&s=612x612&w=0&h=26UJd3VV4HWH0IShK9Fi12pNmYkHrP-PeHj2Bn0qEYc=');
+    background-size: cover;
+}
+.section9{
+    background-image: url('https://media.gettyimages.com/photos/pray-picture-id124618481?k=6&m=124618481&s=612x612&w=0&h=yWbarPITMveBHMbxP8YdZjvqV4ebqS_876C1yAUxb60=');
+    background-size: cover;
+}
+.section10{
+    background-image: url('https://media.gettyimages.com/photos/homage-picture-id124618493?k=6&m=124618493&s=612x612&w=0&h=NeiKtxgkPrG_qBfJrkCVjfbcXB287bwWDJ9ecxbWvKc=');
+    background-size: cover;
+}
+.section11{
+    background-image: url('https://media.gettyimages.com/photos/golden-sun-beams-streaming-through-idyllic-wilderness-pine-forest-picture-id636753858?k=6&m=636753858&s=612x612&w=0&h=3sjZ3DtrmbqD__IF-Mq7gVusxp-i6od9Zdca8HnIDkM=');
+    background-size: cover;
+}
+.section12{
+    background-image: url('https://media.gettyimages.com/photos/tintern-abbey-in-the-wye-valley-monmouthshire-united-kingdom-picture-id124763301?k=6&m=124763301&s=612x612&w=0&h=RlgtuJWM2PT6E7q5IY4ZK4zmaoQiescnhjDIbIJmRyE=');
+    background-size: cover;
+}
 /* Custom CSS - End */
